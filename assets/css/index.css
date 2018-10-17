@@ -1,0 +1,142 @@
+/*Table of contents 1.General Rules 2.Nav 3.Carousel 4.Page */
+/* 1. General Rules*/
+ * {
+     font-family: 'Roboto', sans-serif;
+}
+ .gkids-grey {
+     background-color: #F2F2F2;
+}
+ .gkids-bg-footer{
+     background-color:#222222;
+}
+ .gkids-button{
+     text-decoration:underline;
+     color:#1B120A;
+}
+ .gkids-button:after{
+     padding-left: 10px;
+     display: inline-block;
+     font-family: FontAwesome;
+     content: "\f178";
+     opacity: 1;
+}
+ .gkids-button:hover{
+     background-color:#1B120A;
+     color:white;
+     padding:10px;
+}
+ .gkids-category-title{
+     padding:5px;
+     border:1px solid #1B120A;
+}
+ .gkids-footer>div>h6,.gkids-footer>div>p{
+     color:#fff;
+}
+ .gkids-footer>div>p{
+     font-size:14px;
+}
+ .gkids-tag-title{
+     border:1px solid #c2c2c2;
+     padding:5px;
+     color:#f1f1f1;
+}
+/*End General Rules*/
+/** 2. Nav Custom style */
+ nav, .carousel {
+     margin-top: -10px;
+}
+ .dropdown:hover>.dropdown-menu {
+     display: block;
+}
+ .nav-pills .nav-link.active, .nav-pills .show>.nav-link>.active {
+     background-color: #64C9EA;
+}
+ .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+     color: white;
+     font-size: 16px;
+}
+ .navbar-light .navbar-nav .nav-link {
+     font-size: 16px;
+     color: black;
+}
+ li.nav-link:hover {
+     background-color: white;
+}
+ .nav-pills .show>.nav-link {
+     color: black!important;
+     background-color:#fff;
+}
+ .container .dropdown .dropdown-menu a:hover {
+     background-color: #F2F2F2;
+}
+/*2.End of Nav*/
+/* 3. Carousel */
+ #globalKidsIndicators .carousel-caption {
+     color: white;
+     overflow: hidden;
+     text-align: center;
+     max-width: 360px;
+     left: 0;
+     top: 1px;
+    /*top: 50%;
+     */
+     background: rgba(0, 0, 0, 0.8);
+     padding: 10px;
+     height: 100%;
+}
+ .carousel-control-prev, .carousel-control-next {
+     opacity: 1;
+     background-color: white;
+     border-radius: 999em;
+     padding: 10px;
+     width: 49px;
+     height: 50px;
+     position: absolute;
+     top: 45%;
+}
+ .carousel-control-prev-icon {
+     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%55555' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+ .carousel-control-next-icon {
+     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%55555' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+ .carousel-control-prev {
+     margin-left: -20px;
+}
+ .carousel-control-next {
+     margin-right: -20px;
+}
+ .carousel-caption>h4 {
+     font-size: 20px;
+     font-weight: 700;
+     padding: 70px 50px 0 50px;
+     text-align: justify;
+}
+ .carousel-caption>p {
+     padding: 0 50px 50px 50px;
+     text-align: justify;
+     font-size: 16px;
+     line-height: 1.6;
+     color: #DADADA;
+}
+ .carousel-caption>a {
+     margin-left: 50px;
+     padding: 10px 10px 10px 10px;
+     color: #f1f1f1;
+     float: left;
+     border: 1px solid #f1f1f1;
+}
+ .carousel-caption>a:hover {
+     text-decoration: none;
+     color: #000;
+     background-color: #fff;
+}
+/* 3. End of Carousel */
+/*4. Start page guides*/
+ .gkids-mt-10{
+     margin-top:-10px;
+}
+ .gkids-ml-15{
+     margin-left:-15px;
+}
+/*4. End page guides*/
